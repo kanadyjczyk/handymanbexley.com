@@ -1,0 +1,34 @@
+# robots.txt — handymanbexley.com
+# https://www.handymanbexley.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Block any admin or private paths (add as needed)
+Disallow: /admin/
+Disallow: /private/
+
+# Crawl rate hint (optional — remove if not needed)
+Crawl-delay: 5
+
+# Sitemap location
+Sitemap: https://www.handymanbexley.com/sitemap.xml
+
+# ── AI CRAWLERS ── allow for AI SEO visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
